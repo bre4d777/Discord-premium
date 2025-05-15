@@ -20,6 +20,9 @@
     "discord-bot"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "better-sqlite3": "^11.10.0"
   },
