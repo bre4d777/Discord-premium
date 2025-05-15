@@ -25,7 +25,7 @@ npm install better-sqlite3
 ## Quick Start
 
 ```typescript
-import { createPremiumSystem } from '@bre4d777/discord-premium';
+import { createPremiumSystem } from 'discord-premium';
 
 // Create a configuration
 const config = {
@@ -193,7 +193,7 @@ const expiredUsers = await premium.getExpiredUsers();
 
 ```typescript
 import { Client, Intents } from 'discord.js';
-import { createPremiumSystem } from '@bre4d777/discord-premium';
+import { createPremiumSystem } from 'discord-premium';
 import config from './premium.config';
 
 const client = new Client({ intents: [/* your intents */] });
